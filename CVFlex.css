@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 10px;
+    background-color: #bbb;
+    font-size: 10px;
+    text-align: justify;
+  }
+  
+  h4 {
+    line-height: 0;
+    margin-bottom: 0;
+  }
+  
+  p {
+    margin: 10px 0 0 0;
+  }
+  
+  ul {
+    margin: 10px 0 0 -20px;
+  }
+  
+  .container {
+    max-width: 576px;
+    min-height: 720px;
+    background-color: white;
+    margin: 10px auto;
+    padding: 50px 40px 50px 40px;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    width: 70%;
+    margin: auto;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    left: 20px;
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 2em;
+  }
+  
+  .header img {
+    position: absolute;
+    left: -65px;
+    top: 10px;
+    width: 60px;
+    cursor: pointer;
+  }
+  
+  .flex {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0;
+    margin-bottom: 6px;
+  }
+  
+  .flex .kiri {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 13px;
+    margin-top: 3.5px;
+    margin-bottom: -7px;
+    margin-right: 15px;
+    flex: 2;
+  }
+  
+  .flex .kanan {
+    text-align: right;
+  }
+  
+.content a {
+    text-decoration: none;
+    color: black;
+  }
+.content a:hover {
+    color: rgb(118, 118, 118);
+  }
+  
+  @media (min-width:456px) {
+    .header {
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .header img {
+      width: 70px;
+      position: absolute;
+      left: -70px
+    }
+  }
